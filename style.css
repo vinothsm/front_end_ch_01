@@ -1,0 +1,130 @@
+/* .container {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(214, 229, 248);
+  display: flex;
+  justify-content: center;
+}
+
+.content-container{
+    margin: 10% 0 10% 0;
+    max-width: 20%;
+    max-height: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .content-container {
+    margin: 10% 0 10% 0;
+    max-width: 50vh;
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(214, 229, 248);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+img {
+    margin-top: 3%;
+    max-width: 90%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.text_cont{
+    margin-left:3%;
+    margin-right:3%;
+
+}
+
+.head{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    overflow: wrap;
+    margin-top: 5%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.bottom{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    overflow: wrap;
+    margin-top: 5%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.center {
+    border: 5px solid #ffffea;
+    border-radius: 15px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 50vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.content-container{
+  background-color: rgb(255, 255, 255);
+  min-height: 50vh;
+  max-width: 40vh;
+  border-radius: 15px;
+}
+
+img{
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  border-radius: 15px;
+}
+
+.text_cont {
+  /* margin-bottom: 8%; */
+  max-width: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  
+}
+
+.head {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 10%;
+  font-size: 110%;
+
+}
+
+.bottom {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(212, 15%, 49%);
+  font-size: 85%;
+}
